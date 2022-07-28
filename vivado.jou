@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Jun 12 18:37:10 2022
+# Process ID: 2919
+# Current directory: /ad/eng/users/n/i/niksmith/Verilog/Basic_Verilog_Modules
+# Command line: vivado
+# Log file: /ad/eng/users/n/i/niksmith/Verilog/Basic_Verilog_Modules/vivado.log
+# Journal file: /ad/eng/users/n/i/niksmith/Verilog/Basic_Verilog_Modules/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project Adders /ad/eng/users/n/i/niksmith/Verilog/Basic_Verilog_Modules/Adders -part xc7a100tcsg324-1
+add_files -norecurse {/ad/eng/users/n/i/niksmith/Verilog/Basic_Verilog_Modules/Carry_Lookahead_Adder/Carry_Lookahead_Adder.srcs/sources_1/new/Full_Adder.v /ad/eng/users/n/i/niksmith/Verilog/Basic_Verilog_Modules/Carry_Lookahead_Adder/Carry_Lookahead_Adder.srcs/sources_1/new/Ripple_Carry_Adder.v /ad/eng/users/n/i/niksmith/Verilog/Basic_Verilog_Modules/Carry_Lookahead_Adder/Carry_Lookahead_Adder.srcs/sources_1/new/Carry_Out_Generator.v /ad/eng/users/n/i/niksmith/Verilog/Basic_Verilog_Modules/Carry_Lookahead_Adder/Carry_Lookahead_Adder.srcs/sources_1/new/Carry_Lookahead_Adder.v /ad/eng/users/n/i/niksmith/Verilog/Basic_Verilog_Modules/Carry_Lookahead_Adder/Carry_Lookahead_Adder.srcs/sources_1/new/Half_Adder.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {/ad/eng/users/n/i/niksmith/Verilog/Basic_Verilog_Modules/Carry_Lookahead_Adder/Carry_Lookahead_Adder.srcs/sim_1/new/Full_Adder_tb.v /ad/eng/users/n/i/niksmith/Verilog/Basic_Verilog_Modules/Carry_Lookahead_Adder/Carry_Lookahead_Adder.srcs/sim_1/new/Half_Adder_tb.v /ad/eng/users/n/i/niksmith/Verilog/Basic_Verilog_Modules/Carry_Lookahead_Adder/Carry_Lookahead_Adder.srcs/sim_1/new/Adder_tb.v}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
